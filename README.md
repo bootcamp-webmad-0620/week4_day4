@@ -30,9 +30,9 @@
   
 ## Apuntes finales
 - La etiqueta `form` dispone de dos atributos: `action` (destino de la información) y `method` (método de envío)
-- Crear un formulario integrado en una aplicación wbe supone revisar tres aspectos fundamnetales:
- - Valor del atributo `action`del formulario.
- - Valor del atributo `method` del formulario.
- - Valor del atributo `name` de cada input de formulario. 
+- Crear un formulario integrado en una aplicación web supone revisar tres aspectos fundamentales:
+  - Valor del atributo `action`del formulario.
+  - Valor del atributo `method` del formulario.
+  - Valor del atributo `name` de cada input de formulario. 
 - Es posible disponer de dos controladores para un mismo *endpoint* (`GET`/`POST`)
 - Express puede acceder al `req.body` de las peticiones `POST` gracias a la dependencia `Body Parser`
